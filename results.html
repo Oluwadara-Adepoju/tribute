@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content= "width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie-edge" >
+	<title>Result</title>
+</head>
+<body>
+    <div id ="results"> </div>
+    <a href="/">Back to Forms</a>
+    <script>
+        const  resultLists =document.getElementById('results')
+        new URLSearchParams(window.location.search).forEach((value,name)
+        => {
+            resultsList.append(`${name}: ${value}`)
+            resultsList.append(document.createElement('br'))
+        })
+    </script>
+
+</body>
+</html>
